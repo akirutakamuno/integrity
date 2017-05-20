@@ -2,7 +2,7 @@
 
 import os
 os.chdir('/tmp')
-cmd = ['git init','git clone https://github.com/SarinI0/integrity.git']
+cmd = ['git init','git clone https://github.com/kukuriku/integrity.git']
 command = 'sudo apt-get install git git-core -y'
 os.system(command)
 for command in cmd:
